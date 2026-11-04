@@ -4,6 +4,8 @@
 
 **Salve a web do seu jeito.** Extensão gratuita e de código aberto para Chrome e Edge. Sem conta, assinatura, telemetria ou serviço de processamento remoto.
 
+<img src="assets/preview.png" width="388" alt="Painel do Pagelio com opções de PDF, capturas, imagens e texto">
+
 ## O que já funciona
 
 - **PDF:** abre a impressão do navegador. Escolha “Salvar como PDF”. Mantém o layout do site ou gera uma leitura limpa, somente com texto e origem.
