@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Pagelio",
+  "version": "0.1.0",
+  "description": "Salve a web do seu jeito: PDF, capturas, imagens, texto e links. Grátis e de código aberto.",
+  "minimum_chrome_version": "109",
+  "permissions": ["activeTab", "scripting", "downloads", "storage"],
+  "action": {"default_popup": "popup.html", "default_title": "Abrir Pagelio", "default_icon": {"16":"assets/icon-16.png","32":"assets/icon-32.png","48":"assets/icon-48.png","128":"assets/icon-128.png"}},
+  "icons": {"16":"assets/icon-16.png","32":"assets/icon-32.png","48":"assets/icon-48.png","128":"assets/icon-128.png"},
+  "background": {"service_worker": "background.js", "type": "module"},
+  "content_security_policy": {"extension_pages":"script-src 'self'; object-src 'none'; base-uri 'none'"}
+}

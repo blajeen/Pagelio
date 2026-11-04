@@ -1,0 +1,7 @@
+{
+  "name": "pagelio", "version": "0.1.0", "private": true, "type": "module",
+  "description": "Extensão gratuita e open source para salvar a web do seu jeito.",
+  "license": "MIT",
+  "scripts": {"test": "node --test tests/unit.test.js", "test:e2e": "node tests/e2e.js", "check": "node scripts/check.js", "package": "node scripts/package.js"},
+  "devDependencies": {"playwright": "^1.56.0"}
+}
